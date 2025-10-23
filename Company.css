@@ -1,9 +1,7 @@
 body {
-  background: gray;
   margin: 0;
   padding: 0;
   color: #1a1a1a;
-  font-family: 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
 }
 
@@ -34,7 +32,6 @@ p {
 header {
   background-color: #0a1f33;
   padding: 1rem 0 0.5rem 0;
-  border-bottom: 2px solid #0044cc;
   position: static;
   top: 0;
   z-index: 100;
@@ -78,7 +75,6 @@ article {
   margin: 2em auto;
   max-width: 900px;
   background-color: #f5f8fc;
-  border: 1px solid #cdd6e0;
 }
 
 article.intro {
@@ -89,7 +85,7 @@ img {
   display: block;
   margin: 1.5rem auto;
   width: 60%;
-  border-radius: 6px;
+  
 }
 
 footer {
@@ -139,6 +135,7 @@ article.Vcan {
   margin: auto;
   width: 1330px;
   text-align: center;
-  border-radius: 8px;
+
 }
+
 
