@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom right, #ffffff 0%, #0a1f33 100%);
+  background: gray;
   margin: 0;
   padding: 0;
   color: #1a1a1a;
@@ -51,7 +51,6 @@ h3.realLogo {
 }
 
 ul {
-  background: transparent;
   display: flex;
   justify-content: center;
   list-style-type: none;
@@ -80,7 +79,6 @@ article {
   max-width: 900px;
   background-color: #f5f8fc;
   border: 1px solid #cdd6e0;
-  border-radius: 8px;
 }
 
 article.intro {
@@ -143,3 +141,4 @@ article.Vcan {
   text-align: center;
   border-radius: 8px;
 }
+
