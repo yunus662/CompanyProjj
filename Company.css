@@ -1,55 +1,43 @@
-
 body {
-  background: radial-gradient(circle at top, #0a1f33 0%, #020b14 100%);
+  background: linear-gradient(to bottom right, #ffffff 0%, #0a1f33 100%);
   margin: 0;
   padding: 0;
-  color: #e4e7eb;
+  color: #1a1a1a;
   font-family: 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
 }
 
-
 h1 {
   text-align: center;
-  color: #eaf1f8;
+  color: #0a1f33;
 }
 
 h1.CompanyLogo {
-  color: #007bff;
+  color: #0044cc;
   font-size: 2.4rem;
   margin-top: 2rem;
   letter-spacing: 1px;
-  
-
 }
 
 h2 {
-  color: #66b3ff;
+  color: #003366;
   text-align: center;
   margin-top: 3rem;
-  
   font-size: 1.8rem;
-
 }
-
 
 p {
   text-align: right;
-  color: #cfd8e3;
+  color: #2b2b2b;
 }
 
-
-
-
-
 header {
-
+  background-color: #0a1f33;
   padding: 1rem 0 0.5rem 0;
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #0044cc;
   position: static;
   top: 0;
   z-index: 100;
-
 }
 
 h3.realLogo {
@@ -57,13 +45,11 @@ h3.realLogo {
   top: 15px;
   left: 20px;
   color: #fff;
-  background-color: #007bff;
+  background-color: #0044cc;
   padding: 0.3rem 1rem;
   letter-spacing: 0.5px;
-
 }
 
-/* nav bar*/
 ul {
   background: transparent;
   display: flex;
@@ -75,75 +61,61 @@ ul {
 }
 
 .NavBar a {
-  color: #eaf1f8;
+  color: #0a1f33;
   text-decoration: none;
   padding: 0.6rem 1rem;
   font-size: 1rem;
-
-
 }
 
 ul a:hover {
-  background-color: #007bff;
+  background-color: #0044cc;
   color: #fff;
-
 }
 
-/* this is my article bro */
 article {
   text-align: left;
-  color: #e4e7eb;
+  color: #0a1f33;
   padding: 1em 2em;
   margin: 2em auto;
   max-width: 900px;
-
-  
-
-
+  background-color: #f5f8fc;
+  border: 1px solid #cdd6e0;
+  border-radius: 8px;
 }
 
 article.intro {
   text-align: center;
 }
 
-/* and images */
 img {
   display: block;
   margin: 1.5rem auto;
-  
   width: 60%;
-
-
+  border-radius: 6px;
 }
 
-/* ===== Footer ===== */
 footer {
   text-align: center;
-
-  border-top: 2px solid #007bff;
+  background-color: #0a1f33;
+  border-top: 2px solid #0044cc;
   padding: 1.5rem;
-  color: #cfd8e3;
+  color: #e4e7eb;
   margin-top: 3rem;
-
 }
 
 p.footer {
   color: #b7c4d2;
 }
 
-
 h1.SecHomeIMG,
 h1.HomeView {
-  background: rgba(0, 0, 0, 0.7);
-  color: #eaf1f8;
+  background: #0a1f33;
+  color: #ffffff;
   padding: 0.5rem 1rem;
   width: 1330px;
   margin: 1rem auto;
-
   text-align: center;
-
 }
-
 
 .NavBar a {
   width: 80%;
@@ -161,15 +133,13 @@ h3.realLogo {
   margin: 1 auto 1rem auto;
 }
 
-
 article.Vcan {
-  background-color: rgba(8, 15, 25, 0.9);
-  color: #eaf1f8;
+  background-color: #0a1f33;
+  color: #ffffff;
   padding: 0.5rem 1rem;
   display: inline-block;
   margin: auto;
   width: 1330px;
   text-align: center;
-
+  border-radius: 8px;
 }
-
