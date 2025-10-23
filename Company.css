@@ -1,4 +1,4 @@
-/* ===== Global Layout ===== */
+
 body {
   background: radial-gradient(circle at top, #0a1f33 0%, #020b14 100%);
   margin: 0;
@@ -8,7 +8,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===== Headings ===== */
+
 h1 {
   text-align: center;
   color: #eaf1f8;
@@ -19,32 +19,37 @@ h1.CompanyLogo {
   font-size: 2.4rem;
   margin-top: 2rem;
   letter-spacing: 1px;
-  text-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  
+
 }
 
 h2 {
   color: #66b3ff;
   text-align: center;
   margin-top: 3rem;
+  
   font-size: 1.8rem;
-  text-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+
 }
 
-/* ===== Paragraphs ===== */
+
 p {
   text-align: right;
   color: #cfd8e3;
 }
 
-/* ===== Header & Nav ===== */
+
+
+
+
 header {
-  background: linear-gradient(to right, #081524, #0d2037);
+
   padding: 1rem 0 0.5rem 0;
   border-bottom: 2px solid #007bff;
   position: static;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 10px rgba(0, 123, 255, 0.2);
+
 }
 
 h3.realLogo {
@@ -55,10 +60,10 @@ h3.realLogo {
   background-color: #007bff;
   padding: 0.3rem 1rem;
   letter-spacing: 0.5px;
-  border-radius: 6px;
+
 }
 
-/* ===== Navigation ===== */
+/* nav bar*/
 ul {
   background: transparent;
   display: flex;
@@ -74,57 +79,59 @@ ul {
   text-decoration: none;
   padding: 0.6rem 1rem;
   font-size: 1rem;
-  transition: all 0.3s ease;
-  border-radius: 4px;
+
+
 }
 
 ul a:hover {
   background-color: #007bff;
   color: #fff;
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+
 }
 
-/* ===== Article ===== */
+/* this is my article bro */
 article {
   text-align: left;
   color: #e4e7eb;
   padding: 1em 2em;
   margin: 2em auto;
   max-width: 900px;
-  background: rgba(12, 22, 35, 0.9);
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.15);
+
+  
+
+
 }
 
 article.intro {
   text-align: center;
 }
 
-/* ===== Images ===== */
+/* and images */
 img {
   display: block;
   margin: 1.5rem auto;
+  
   width: 60%;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+
+
 }
 
 /* ===== Footer ===== */
 footer {
   text-align: center;
-  background: linear-gradient(to right, #0d2037, #081524);
+
   border-top: 2px solid #007bff;
   padding: 1.5rem;
   color: #cfd8e3;
   margin-top: 3rem;
-  box-shadow: 0 -2px 10px rgba(0, 123, 255, 0.2);
+
 }
 
 p.footer {
   color: #b7c4d2;
 }
 
-/* ===== Section Headers Above Images ===== */
+
 h1.SecHomeIMG,
 h1.HomeView {
   background: rgba(0, 0, 0, 0.7);
@@ -132,12 +139,12 @@ h1.HomeView {
   padding: 0.5rem 1rem;
   width: 1330px;
   margin: 1rem auto;
-  border-radius: 6px;
+
   text-align: center;
-  text-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+
 }
 
-/* ===== Responsive Tweaks ===== */
+
 .NavBar a {
   width: 80%;
   text-align: center;
@@ -154,7 +161,7 @@ h3.realLogo {
   margin: 1 auto 1rem auto;
 }
 
-/* ===== Special Section ===== */
+
 article.Vcan {
   background-color: rgba(8, 15, 25, 0.9);
   color: #eaf1f8;
@@ -163,6 +170,6 @@ article.Vcan {
   margin: auto;
   width: 1330px;
   text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+
 }
+
