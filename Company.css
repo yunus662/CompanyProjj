@@ -1,70 +1,64 @@
-
-
-
-/* Global layout */
+/* ===== Global Layout ===== */
 body {
-  background-color: #0d0d0d;
+  background: radial-gradient(circle at top, #0a1f33 0%, #020b14 100%);
   margin: 0;
-   padding: 0;
-  color: white;
+  padding: 0;
+  color: #e4e7eb;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
 }
 
-
-
-/* Hs */
+/* ===== Headings ===== */
 h1 {
-   text-align: center;
-
-   color: white;
+  text-align: center;
+  color: #eaf1f8;
 }
-
 
 h1.CompanyLogo {
-   color: #00ffcc;
-  font-size: 2.2rem;
-
-   margin-top: 2rem;
+  color: #007bff;
+  font-size: 2.4rem;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
 }
 
 h2 {
-  color: #00ffcc;
-   text-align: center;
+  color: #66b3ff;
+  text-align: center;
   margin-top: 3rem;
   font-size: 1.8rem;
+  text-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
 }
 
-
-
-/* Paragraphs */
+/* ===== Paragraphs ===== */
 p {
   text-align: right;
-  color: #ccc;
+  color: #cfd8e3;
 }
 
-/* Header and nav */
+/* ===== Header & Nav ===== */
 header {
-  background-color: #111;
-   padding: 1rem 0 0.5rem 0;
-  border-bottom: 2px solid #00ffcc;
+  background: linear-gradient(to right, #081524, #0d2037);
+  padding: 1rem 0 0.5rem 0;
+  border-bottom: 2px solid #007bff;
   position: static;
   top: 0;
   z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 123, 255, 0.2);
 }
 
 h3.realLogo {
   position: absolute;
   top: 15px;
   left: 20px;
-  color: black;
-  background-color: #00ffcc;
- 
+  color: #fff;
+  background-color: #007bff;
   padding: 0.3rem 1rem;
-
   letter-spacing: 0.5px;
-
+  border-radius: 6px;
 }
 
-/* Navi bar */
+/* ===== Navigation ===== */
 ul {
   background: transparent;
   display: flex;
@@ -73,108 +67,102 @@ ul {
   margin: 1rem auto;
   padding: 0;
   gap: 1rem;
-
 }
 
 .NavBar a {
-  color: white;
+  color: #eaf1f8;
   text-decoration: none;
   padding: 0.6rem 1rem;
-
   font-size: 1rem;
-
+  transition: all 0.3s ease;
+  border-radius: 4px;
 }
-/* This was learnt before this class*/
+
 ul a:hover {
-  background-color: #00ffcc;
-  color: black;
-  
-
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
 }
 
-
-
-/* article */
+/* ===== Article ===== */
 article {
   text-align: left;
-  color: white;
-  padding: 1em;
+  color: #e4e7eb;
+  padding: 1em 2em;
   margin: 2em auto;
   max-width: 900px;
-  background: #1a1a1a;
-  
-  line-height: 1.6;
+  background: rgba(12, 22, 35, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.15);
 }
 
 article.intro {
   text-align: center;
 }
 
-/* Images */
+/* ===== Images ===== */
 img {
   display: block;
   margin: 1.5rem auto;
   width: 60%;
-  
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
 }
 
-/* Footer */
+/* ===== Footer ===== */
 footer {
   text-align: center;
-  background-color: #111;
-  border-top: 2px solid #00ffcc;
+  background: linear-gradient(to right, #0d2037, #081524);
+  border-top: 2px solid #007bff;
   padding: 1.5rem;
-  color: #ccc;
+  color: #cfd8e3;
   margin-top: 3rem;
+  box-shadow: 0 -2px 10px rgba(0, 123, 255, 0.2);
 }
 
 p.footer {
-  color: #bbb;
+  color: #b7c4d2;
 }
 
-/* this is the text above the pictures */
-h1.SecHomeIMG {
-  background-color: black;
-  color: white;
-  padding: 0.5rem 1rem;
-  display: inline-block;
-  margin: 1rem auto;
-  width:1330px;
-}
+/* ===== Section Headers Above Images ===== */
+h1.SecHomeIMG,
 h1.HomeView {
-  background-color: black;
-  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  color: #eaf1f8;
   padding: 0.5rem 1rem;
   width: 1330px;
-  margin: 1rem 0 1rem auto; 
+  margin: 1rem auto;
+  border-radius: 6px;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
 }
 
+/* ===== Responsive Tweaks ===== */
+.NavBar a {
+  width: 80%;
+  text-align: center;
+}
 
+article {
+  margin: 1.5rem;
+  padding: 1rem;
+}
 
-  .NavBar a {
-    width: 80%;
-    text-align: center;
-  }
+h3.realLogo {
+  position: static;
+  display: block;
+  margin: 1 auto 1rem auto;
+}
 
-  article {
-    margin: 1.5rem;
-    padding: 1rem;
-  }
-
-  h3.realLogo {
-    position: static;
-    display: block;
-    margin: 1 auto 1rem auto;
-  }
-
+/* ===== Special Section ===== */
 article.Vcan {
-  background-color: black;
-  color: white;
-  box-shadow:white;
+  background-color: rgba(8, 15, 25, 0.9);
+  color: #eaf1f8;
   padding: 0.5rem 1rem;
   display: inline-block;
   margin: auto;
-  width:1330px;
-  text-align:center;
+  width: 1330px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
 }
-
