@@ -1,10 +1,14 @@
+
 body {
   margin: 0;
   padding: 0;
   color: #1a1a1a;
+  background-color: white; /* nice clean white bg */
+  font-family: Arial, sans-serif; /* easy to read font */
   line-height: 1.6;
 }
 
+/* title in the middle cause why not */
 h1 {
   text-align: center;
   color: #0a1f33;
@@ -12,23 +16,26 @@ h1 {
 
 h1.CompanyLogo {
   color: #0044cc;
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin-top: 2rem;
   letter-spacing: 1px;
 }
 
+/* subheadings just a bit darker blue */
 h2 {
   color: #003366;
   text-align: center;
-  margin-top: 3rem;
-  font-size: 1.8rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
 }
 
+/* paragraph looks okay on the right */
 p {
   text-align: right;
   color: #2b2b2b;
 }
 
+/* header is just a dark blue strip on top */
 header {
   background-color: #0a1f33;
   padding: 1rem 0 0.5rem 0;
@@ -37,16 +44,18 @@ header {
   z-index: 100;
 }
 
+/* logo box thing in the corner */
 h3.realLogo {
   position: absolute;
   top: 15px;
   left: 20px;
-  color: #fff;
+  color: white;
   background-color: #0044cc;
   padding: 0.3rem 1rem;
   letter-spacing: 0.5px;
 }
 
+/* menu stuff in the middle */
 ul {
   display: flex;
   justify-content: center;
@@ -56,86 +65,102 @@ ul {
   gap: 1rem;
 }
 
+/* links in nav bar */
 .NavBar a {
-  color: #0a1f33;
+  color: white;
   text-decoration: none;
   padding: 0.6rem 1rem;
   font-size: 1rem;
 }
 
+/* hover turns blue */
 ul a:hover {
   background-color: #0044cc;
-  color: #fff;
+  color: white;
 }
 
+/* the article box thingy */
 article {
   text-align: left;
   color: #0a1f33;
-  padding: 1em 2em;
+  padding: 1em;
   margin: 2em auto;
   max-width: 900px;
   background-color: #f5f8fc;
+  border: 1px solid #cccccc;
 }
 
+/* centered intro text */
 article.intro {
   text-align: center;
 }
 
+/* pictures go in the middle */
 img {
   display: block;
   margin: 1.5rem auto;
   width: 60%;
-  
 }
 
+/* footer just dark like the header */
 footer {
   text-align: center;
   background-color: #0a1f33;
   border-top: 2px solid #0044cc;
-  padding: 1.5rem;
+  padding: 1rem;
   color: #e4e7eb;
   margin-top: 3rem;
 }
 
+/* footer text lil lighter */
 p.footer {
   color: #b7c4d2;
 }
 
+/* big text areas under pics */
 h1.SecHomeIMG,
 h1.HomeView {
   background: #0a1f33;
-  color: #ffffff;
+  color: white;
   padding: 0.5rem 1rem;
   width: 1330px;
   margin: 1rem auto;
   text-align: center;
 }
 
+/* make the nav links line up right */
 .NavBar a {
   width: 80%;
   text-align: center;
 }
 
+/* some basic spacing for articles */
 article {
   margin: 1.5rem;
   padding: 1rem;
 }
 
+/* logo placement adjustment */
 h3.realLogo {
   position: static;
   display: block;
   margin: 1 auto 1rem auto;
 }
 
+/* special article section thing */
 article.Vcan {
   background-color: #0a1f33;
-  color: #ffffff;
+  color: white;
   padding: 0.5rem 1rem;
   display: inline-block;
   margin: auto;
   width: 1330px;
   text-align: center;
-
+  border: 1px solid #0044cc;
 }
+
+
+
+
 
 
